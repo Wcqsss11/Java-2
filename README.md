@@ -63,6 +63,9 @@
       Student student =new Student(); 
     }
 
+## 五.实验流程图
+- https://github.com/Wcqsss11/Java-2/blob/main/07111d2e9a7a195b14f16e0289a3925.png
+
 ## 六.核心方法  
      1.这里调用Stuentds类中的对象；
         public class Test {
@@ -80,3 +83,9 @@
 		teacher.setName("李四"); 
 		teacher.setSex("男");
     3.调用choice(选课)类, dorp(退课)类
+    
+## 七.结果
+- https://github.com/Wcqsss11/Java-2/blob/main/d56bd63e8b7cd3b4496aa25da3c9ffb.png
+
+## 八.实验感想
+    通过这次试验我明白了继承的道理，继承是创建父类然后用子类继承父类的方法和成员变量，而super关键字是子类被隐藏的成员变量和方法。
