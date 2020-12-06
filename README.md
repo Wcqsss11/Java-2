@@ -15,7 +15,7 @@
 - 1.学校有“人员”，分为“教师”和“学生”，教师教授“课程”，学生选择“课程”。    
 - 2.从简化系统考虑，每名教师仅教授一门课程，每门课程的授课教师也仅有一位，每名学生选仅选一门课程。
 
-## 四.实验设计
+## 四.实验过程
 
     1.创建了Personnel类，并设置了多种不同的对象；
     class Package { 
@@ -49,8 +49,7 @@
     private String teacher; 
     String [] a= {"英语","java","高等数学","论语"}
 
-    5.创建了choice (选课),dorp(退课)类实现学生选课和退课操作；
-    ------------------------------------
+    5.创建了choice (选课),dorp(退课)类实现学生选课和退课操作
     public void choice (String name){
       Student student =new Student();
         public void choice (String name){
@@ -64,8 +63,8 @@
       Student student =new Student(); 
     }
 
-## 五.核心方法  
-    1.  这里调用Stuentds类中的对象；
+## 六.核心方法  
+     1.这里调用Stuentds类中的对象；
         public class Test {
 	private static String name; 
 	public static void main(String args[]){ 
@@ -75,7 +74,7 @@
 		studengt.setName("张三"); 
 		studengt.setSex("男") 
 
-    2.  调用Teacher类中的对象；
+    2.调用Teacher类中的对象；
         Teacher teacher= new Teacher(); 
 		teacher.setNumber("111111111"); 
 		teacher.setName("李四"); 
